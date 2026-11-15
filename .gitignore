@@ -53,3 +53,19 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Arquivos brutos baixados (Ubuntu Packages)
+*.xz
+Packages
+
+# Editor / SO
+.vscode/
+.DS_Store
